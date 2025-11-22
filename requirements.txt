@@ -1,5 +1,6 @@
 fastapi
 uvicorn
+playwright
 python-dotenv
 yagmail
 jinja2
