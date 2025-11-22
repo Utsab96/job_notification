@@ -9,9 +9,10 @@ class JobRequest(BaseModel):
     keywords: list[str]
 
 
-@app.route("/render")
+@app.get("/render")
 def home():
-    return "Hello from Render!"
+    return {"message": "Hello from Render!"}
+
 
 @app.get("/")
 def root():

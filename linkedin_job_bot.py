@@ -44,7 +44,8 @@ def send_email(results):
 def fetch_jobs(playwright):
     browser = playwright.chromium.launch_persistent_context(
         user_data_dir=r"C:\Users\utsab\AppData\Local\Google\Chrome\User Data",
-        headless=False,
+        headless=True,
+        
     )
 
     page = browser.new_page()

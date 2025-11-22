@@ -4,3 +4,4 @@ python-dotenv
 playwright
 yagmail
 jinja2
+requests
