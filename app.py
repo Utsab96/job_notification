@@ -8,6 +8,11 @@ app = FastAPI()
 class JobRequest(BaseModel):
     keywords: list[str]
 
+
+@app.route("/render")
+def home():
+    return "Hello from Render!"
+
 @app.get("/")
 def root():
     return {"message": "LinkedIn Job Bot API running!"}
