@@ -3,6 +3,8 @@ import requests
 from dotenv import load_dotenv
 import urllib.parse
 from .utils import human_delay, parse_days_ago
+import os
+
 
 load_dotenv()
 
