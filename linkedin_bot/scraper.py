@@ -1,7 +1,5 @@
 from bs4 import BeautifulSoup
 import requests
-from playwright.sync_api import sync_playwright
-import os
 from dotenv import load_dotenv
 import urllib.parse
 from .utils import human_delay, parse_days_ago
